@@ -45,7 +45,6 @@ export class AuthService {
       throw new BadRequestException('Invalid Credentials!');
     } else {
       return user;
-      
     }
   }
 }
