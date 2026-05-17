@@ -12,11 +12,12 @@ export class Report {
   price!: number;
 
   @Column()
+  make!: string;
+
+  @Column()
   model!: string;
 
-  @Column({
-    type: 'decimal',
-  })
+  @Column()
   year!: number;
 
   @Column({
